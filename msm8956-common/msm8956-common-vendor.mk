@@ -523,7 +523,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
-	vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbase-hax.so:system/vendor/lib64/libbase-hax.so 
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib64/libbase-hax.so:system/vendor/lib64/libbase-hax.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
+    vendor/xiaomi/msm8956-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so
 
 # Dirac Blobs
 PRODUCT_COPY_FILES += \
